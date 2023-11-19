@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.input-search::placeholder {
+    text-align: center;
+    font-size: 1.4 rem;
+    font-weight: bold !important;
+    color: #C8C8C8 !important;
+}
+
+.swal2-confirm.swal2-styled {
+    background: #dc3545 !important;
+}
+
+.swal2-confirm.swal2-styled:focus {
+    box-shadow: 0 0 0 3px rgb(219 219 219 / 50%) !important;
+}
